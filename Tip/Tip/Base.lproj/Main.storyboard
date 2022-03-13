@@ -189,7 +189,7 @@
                     <connections>
                         <outlet property="billTextField" destination="Xp6-QT-Mjf" id="yAG-ug-JhO"/>
                         <outlet property="calculateButton" destination="twb-C7-tJO" id="rIh-bR-FLy"/>
-                        <outlet property="splitNumberLabel" destination="Dh5-vj-vJ6" id="LMU-gB-1lx"/>
+                        <outlet property="splitNumberLabel" destination="A74-pt-kfq" id="avo-Lo-cEs"/>
                         <outlet property="tenPctButton" destination="JRt-1s-8HS" id="uIV-da-fgu"/>
                         <outlet property="twentyPctButton" destination="gpP-kr-lYI" id="ROu-kZ-aZL"/>
                         <outlet property="zeroPctButton" destination="fdR-6C-Jue" id="jvl-vQ-OG6"/>
