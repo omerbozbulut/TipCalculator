@@ -35,6 +35,8 @@ class CalculateViewController: UIViewController {
         let tipPercent = Double(buttonTitle.dropLast())!
         tip = tipPercent/100.0
         
+        billTextField.endEditing(true)
+        
     }
     @IBAction func stepperValueChanged(_ sender: UIStepper) {
         sender.wraps = false
@@ -42,14 +44,15 @@ class CalculateViewController: UIViewController {
     }
     
     @IBAction func calculatePressed(_ sender: UIButton) {
-        print(tip)
         performSegue(withIdentifier: "goToResult", sender: self)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToResult"{
             let destinationVC = segue.destination as! ResultViewController
-            
+            destinationVC.numberOfPeople = Int(splitNumberLabel.text!)
+            destinationVC.tipPercentage = tip
+            destinationVC.total = Double(billTextField.text!)
         }
     }
 
