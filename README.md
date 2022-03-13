@@ -1,2 +1,6 @@
 # TipCalculator
-Bill splitting, tip calculating app.
+
+I wrote bill splitting, tip calculating app.
+I used MVC.
+
+<img src="https://github.com/omerbozbulut/TipCalculator/blob/main/gif/tip.gif" width="242" height="492">
