@@ -9,11 +9,17 @@ import UIKit
 
 class ResultViewController: UIViewController {
 
+    @IBOutlet weak var recalculateButton: UIButton!
+    
+    @IBOutlet weak var settingsLabel: UILabel!
+    @IBOutlet weak var totalLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        recalculateButton.layer.cornerRadius = 10.0
+        
     }
+    
+    
     
 
     /*

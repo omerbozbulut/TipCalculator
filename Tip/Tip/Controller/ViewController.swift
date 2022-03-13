@@ -7,14 +7,23 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CalculateViewController: UIViewController {
     @IBOutlet weak var calculateButton: UIButton!
+    
+    @IBOutlet weak var billTextField: UITextField!
+    
+    @IBOutlet weak var zeroPctButton: UIButton!
+    @IBOutlet weak var tenPctButton: UIButton!
+    @IBOutlet weak var twentyPctButton: UIButton!
+    
+    @IBOutlet weak var splitNumberLabel: UIStackView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         calculateButton.layer.cornerRadius = 10.0
     }
 
+    
 
 }
 
